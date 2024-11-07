@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="tableau.js" defer></script>
+  </head>
+  <body>
+    <form name="formulaire1">
+      <table>
+        <tr>
+          <td><h1>Aliment</h1>
+            <select id="liste1" size="20" style="width: 380px" onclick="basculer(this.form.liste1, this.form.liste2)">
+                <option value="133">teste1</option>
+                <option value="233">teste2</option>
+                <option value="344">teste3</option>
+                <option value="4222">teste4</option>
+            </select>
+          </td>
+          <td>
+            <select id="liste2" size="20" style="width: 380px" onclick="basculer(this.form.liste2, this.form.liste1)">
+
+            </select>
+          </td>
+        </tr>
+    </table>
+    <h2 id="res"></h2>
+    </form>
+  </body>
+</html>

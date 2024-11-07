@@ -1,0 +1,25 @@
+.calculatrice {
+    display: flex;
+
+    margin: auto;
+    width: 420px;
+    height: 420px;
+    border: 1px black solid;
+    flex-direction: column;
+    background-color: grey;
+    padding: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+input {
+    display: flex;
+    width:90%;
+    margin: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="exercice1234.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="entrer">
+        <button id = "button" onclick="copier()">Copier ==></button>
+        <input type="text" id="sortie">
+    </div>
+    <br>
+    <div>
+        <input type="radio" name="pays" id="france" value = "Paris" onclick="paysCapital()">
+        <label for="france">France</label>
+        <input type="radio" name="pays" id="espagne" value = "Madrid" onclick="paysCapital()">
+        <label for="espagne">Espagne</label>
+        <input type="radio" name="pays" id="portugal" value = "Lisbone" onclick="paysCapital()">
+        <label for="portugal">Portugal</label>
+        <input type="radio" name="pays" id="allemagne" value = "Berlin" onclick="paysCapital()">
+        <label for="allemagne">Allemagne</label>
+        <input type="radio" name="pays" id="italie" value = "Rome" onclick="paysCapital()">
+        <label for="italie">Italie</label>
+    </div>
+    <div>
+        <input type="text" id="capital">
+    </div>
+    <br>
+    <div>
+        <select id="list" onchange="continent()">
+            <option>Selectionner un continent :</option>
+            <option value="Afrique">Afrique</option>
+            <option value="Asie">Asie</option>
+            <option value="Amérique">Amérique</option>
+            <option value="Europe">Europe</option>
+            <option value="Océanie">Océanie</option>
+        </select>
+        <p>==></p>
+        <input type="text" id = "continent">
+    </div>
+</body>
+</html>

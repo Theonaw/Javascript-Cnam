@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calories.js"></script>
+</head>
+<body>
+    <h1>Calcule du besoin en calories par jour</h1>
+    <div>
+        <label>Sexe:</label>    
+        <input type="radio" name="sexe" id="Homme">
+        <label for="Homme">Homme</label>
+        <input type="radio" name="sexe" id="Femme">
+        <label for="Femme">Femme</label>
+    </div>
+    <div>
+        <label>Taille (cm):</label>
+        <input id="taille" type="text">
+    </div>
+    <div>
+        <label>Age:</label>
+        <input id="age" type="text">
+    </div>
+    <div>
+        <label>Poids (kg):</label>
+        <input id="poids" type="text">
+    </div>
+    <div>
+        <label>Activité physique:</label>    
+        <input type="radio" name="activite" id="Sédentaire">
+        <label class="nom" for="Sédentaire">Sédentaire</label>
+        <input type="radio" name="activite" id="Légère">
+        <label class="nom" for="Légère">Légère</label>
+        <input type="radio" name="activite" id="Modérée">
+        <label class="nom" for="Modérée">Modérée</label>
+        <input type="radio" name="activite" id="Intense">
+        <label class="nom" for="Intense">Intense</label>
+    </div>
+    <button onclick="physique()">Calculer votre besoin en calories</button>
+    <h2 id="final"></h2>
+</body>
+</html>

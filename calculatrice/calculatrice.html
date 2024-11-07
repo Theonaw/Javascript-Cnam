@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculatrice.js"></script>
+    <link rel="stylesheet" href="calculatrice.css">
+</head>
+<body>
+    <div class="calculatrice">
+        <input type="text" id="resultat">
+        <div>
+            <button value="C" onclick="afficher('C')">C</button>
+            <button value="(" onclick="afficher('(')">(</button>
+            <button value=")" onclick="afficher(')')">)</button>
+            <button value="/" onclick="afficher('/')">/</button>
+            <button value="log" onclick="afficher('log')">log</button>
+        </div>
+        <div>
+            <button value="7" onclick="afficher('7')">7</button>
+            <button value="8" onclick="afficher('8')">8</button>
+            <button value="9" onclick="afficher('9')">9</button>
+            <button value="*" onclick="afficher('*')">*</button>
+            <button value="mod" onclick="afficher('mod')">mod</button>
+        </div>
+        <div>
+            <button value="4" onclick="afficher('4')">4</button>
+            <button value="5" onclick="afficher('5')">5</button>
+            <button value="6" onclick="afficher('6')">6</button>
+            <button value="-" onclick="afficher('-')">-</button>
+            <button value="racine" onclick="afficher('racine')">racine</button>
+        </div>
+        <div>
+            <button value="1" onclick="afficher('1')">1</button>
+            <button value="2" onclick="afficher('2')">2</button>
+            <button value="3" onclick="afficher('3')">3</button>
+            <button value="+" onclick="afficher('+')">+</button>
+            <button value="x²" onclick="afficher('x²')">x²</button>
+        </div>
+        <div>
+            <button value="supp" onclick="afficher('supp')"><--</button>
+            <button value="0" onclick="afficher('0')">0</button>
+            <button value="." onclick="afficher('.')">.</button>
+            <button value="=" onclick="afficher('=')">=</button>
+            <button value="exp" onclick="afficher('exp')">exp</button>
+        </div>
+    </div>
+</body>
+</html>
